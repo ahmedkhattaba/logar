@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "logar"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple colored logging module for python"
 dependencies = [
     'colorama==0.4.6',
