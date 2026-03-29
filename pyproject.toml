@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logar"
+version = "0.1.0"
+description = "Simple colored logging module for python"
+dependencies = [
+    'colorama==0.4.6',
+]
+authors = [{name = "Cairoon", email = "cairoon.dev@gmail.com"}]
+keywords =["logging", "logger", "logs", "python", "debug", "colors", "terminal"]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ahmedkhattaba/logar"
+Repository = "https://github.com/ahmedkhattaba/logar"
+Issues = "https://github.com/ahmedkhattaba/logar/issues"
+
+[tool.setuptools]
+packages = ["logar"]
